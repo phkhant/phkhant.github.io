@@ -1,0 +1,478 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: lobster;
+    src: url(../Lobster/Lobster-Regular.ttf)
+}
+
+.logo{
+    width: 100px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.brand_name{
+    position: absolute;
+    top: 30px;
+    left: 87px;
+    font-size: 20px;
+    font-family: lobster;
+}
+.navbar ul{
+    float: right;
+}
+.nav_brand{
+    display: inline-block;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.nav_item:hover{
+    color: rgb(8, 170, 245);
+    letter-spacing: 5px;
+    transition-duration: 1s;
+}
+.cart{
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: -10px;
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.background_img{
+    width: 100%;
+}
+.background_text{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.background_title{
+    font-family: lobster;
+    font-weight: unset;
+    margin-bottom: 15px;
+}
+.shop_now{
+    margin-top: 15px;
+    border: 1px solid rgb(8, 170, 245);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(8, 170, 245);
+    outline: none;
+}
+.shop_now:hover{
+    background-color: rgb(8, 170, 245);
+    color: white;
+    cursor: pointer;
+}
+.product{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.product_header{
+    text-align: center;
+    margin-top: 50px;
+}
+.divided{
+    width: 100px;
+    margin: auto;    
+    border: 2px solid rgb(8, 170, 245);
+}
+.product_img{
+    width: 100%;
+    box-shadow: 2px 2px 5px rgb(0,0,.15);
+    border-radius: 5px;
+}
+.add_to_cart{
+    padding: 10px 15px;
+    border-radius: 17px;
+    border: 1px solid #2a84ac;
+    background-color: #e4ecee;
+    outline: none;
+}
+.add_to_cart :hover{
+cursor: none;
+}
+
+.discount{
+    font-size: 13px;
+    color: red;
+    text-decoration: line-through;
+}
+.about{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-image: url(../images/css\ image\ red\ flower.jpg);
+    color: white;
+    text-align: center;
+}
+.about div{
+    padding: 60px;
+}
+.divid{
+    width: 30px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.packaging_header{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.packaging_img{
+    margin-left: 80px;
+    border-radius: 5px;
+    width: 40%;
+    float: left;
+}
+.packaging_text{
+    position: relative;
+    left: 50px;
+    width: 90%;
+}
+.packaging_text h2{
+    text-transform: uppercase;
+}
+.packaging_icon{
+    padding-right: 10px;
+    display: inline-block;
+}
+.packaging_text_header{
+    margin-top: 25px;
+}
+.clear1{
+    clear: both;
+}
+.service{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:  #e4ecee;
+    margin-top: 50px;
+    padding: 30px 80px;
+}
+.service_text{
+    display: inline-block;
+    margin-left: 30px;
+}
+.service_header{
+    font-size: 22px;
+    font-weight: bold;
+}
+/*--footer*/
+.footer{
+    text-align: center;
+    background-color: rgb(61, 58, 58);
+    padding: 50px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.footer p{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+/*!--contact page--*/
+.contact_header{
+    text-align: center;
+    background-color: #e4ecee;
+    padding: 40px;
+}
+.clear_contact{
+    clear: both;
+}
+.contact_mid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;  
+    grid-gap: 50px; 
+}
+.text1{
+    background-color: #e4ecee;
+    padding: 30px;
+}
+.contact_frame{
+    margin-top: 30px;
+}
+
+.contact_title{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.contact_frame{
+    float: right;
+    margin-right: 40px;
+    
+}
+.contact_form{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+input[type="text"]{
+    width: 44%;
+    height: 33px;
+    outline: none;
+    border-radius: 5px;
+}
+input[type="email"]{
+    width: 44%;
+    height: 33px;
+    outline: none;
+    border-radius:  5px;
+}
+input[type="subject"]{
+    width: 43%;
+    height: 33px;
+    outline: none;
+    border-radius: 5px;
+}
+.contact_email{
+    margin-top: 32px;
+}
+.contact_subject{
+    margin-top: 20px;
+}
+#address{
+    width: 48%;
+    height: 90px;
+}
+.contact_message{
+    margin-top: 18px;
+}
+.contact_send{
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 440px;
+    border: 1px solid black;
+    padding: 10px 10px ;
+    border-radius: 5px;
+    color: black;
+    outline: none;
+    background-color: gainsboro;
+}
+
+.bottom_clear{
+    clear: both;
+}
+/*--end contact --*/
+
+/* start shop */
+
+.shopnow{
+    text-align: center;
+    color: rgb(34, 29, 29);
+    margin-top: 20px;
+}
+.shop_hr{
+    width: 60px;
+    margin: auto;
+    margin-top: 4px;
+    border: 1px solid grey;
+}
+.title_irises{
+    margin-left: 58px;
+}
+.hr_irises_title{
+    width: 40px;
+    margin-left: 68px;
+    border: 1px solid grey;
+    
+}
+.irises_product{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.irises1{
+    width: 300px;
+    box-shadow: 2px 2px 5px rgb(0,0,.15);
+    border-radius: 6px;
+}
+.irises2{
+    width: 240px;
+    box-shadow: 3px 3px 5px rgb(0,0,.15);
+    border-radius: 6px;
+}
+.irises3{
+    width: 315px;
+    box-shadow: 3px 3px 5px rgb(0,0,.15);
+    border-radius: 6px;
+}
+.irises4{
+    width: 240px;
+    box-shadow: 3px 3px 5px rgb(0,0,.15);
+    border-radius: 5px;
+}
+.shop_cart{
+    padding: 10px 15px;
+    border-radius: 17px;
+    border: 1px solid #2a84ac;
+    background-color: #e4ecee;
+    outline: none;
+}
+.shop_cart :hover{
+cursor: none;
+}
+.title_roses{
+    margin-left: 56px;
+    margin-top: 20px;
+}
+.hr_roses{
+    width: 40px;
+    margin-left: 64px;
+    border: 1px solid gray;
+}
+.roses_product{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    text-align: center;  
+    margin-left: 40px;
+    margin-right: 30px;
+}   
+.roses1{
+    width: 280px;
+    box-shadow: 3px 3px 5px rgb(0,0,.15);
+    border-radius: 6px;
+}
+.roses2{
+    width: 212px;
+    box-shadow: 3px 3px 4px 1px rgb(0,0,.15);
+    border-radius: 6px;
+}
+.roses3{
+    width: 288px;
+    box-shadow: 3px 3px 5px rgb(0,0,.15);
+    border-radius: 6px;
+}
+.roses4{
+    width: 288px;
+    box-shadow: 3px 3px 5px  rgb(0,0,.15);
+    border-radius: 6px;
+}
+.shop_newitem{
+    margin-top: 20px;
+    margin-left: 53px;
+}
+.shop_coming_soon{
+    margin-top: 20px;
+    text-align: center;
+}
+.hr_newitem{
+    width: 100px;
+    margin-left: 70px;
+    border: 2px solid gray;
+}
+.about_img{
+    width: 50%;
+    height: 350px;
+    float: right;
+    margin-right: 100px;
+}
+.about_text{
+    position: relative;
+    left: 50px;
+    font-size:larger;
+    margin-top: 50px;
+}
+.h1_color{
+    color: blue;
+}
+.p_color{
+    color: blue;
+}
+.about_read_more{
+    margin-top: 35px;
+    border: 1px solid rgb(8, 170, 197);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: blue;
+    outline: none;
+}
+
+.about_clear1{
+    clear: both;
+}
+/* end about */
+.blog_title{
+    text-align: center;
+}
+.blog_hr{
+    width: 50px;
+    margin-left: 650px;
+    border: 1px solid rgb(56, 48, 48);
+}
+.blog{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.blog_img1{
+    width: 90%;
+    height: 300px;
+    box-shadow: 2px 2px 5px rgb(0,0,.15);
+    border-radius: 5px;
+}
+.blog_img2{
+    width: 80%;
+    height: 303px;
+    box-shadow: 2px 2px 5px rgb(0,0,.15);
+    border-radius: 5px;
+}
+.blog_img3{
+    width: 80%;
+    height: 303px;
+    box-shadow: 2px 2px 5px rgb(0,0,.15);
+    border-radius: 5px;
+}
+.blog_text{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #2a84ac;
+    background-color: #e4ecee;
+    outline: none;
+    margin-top: 15px;
+}
+.blog_text :hover{
+cursor: none;
+}
+.blog_date{
+    color: red;
+}
